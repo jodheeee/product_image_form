@@ -1,5 +1,5 @@
 import React,{ useState, useRef, MouseEvent, useEffect } from 'react';
-import './css/browser/item/productImage.scss';
+import './productImage.scss';
 
 function ProductImage() {
   const imgRef = useRef();
