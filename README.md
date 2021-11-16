@@ -1,7 +1,5 @@
 ## e-커머스 제품 이미지 기본 양식
 
-<hr/>
-
 Main Image : 1
 <br/>
 Sub Image  : 4(Main 포함)
