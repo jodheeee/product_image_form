@@ -1,13 +1,14 @@
 import React,{ useState, useRef, MouseEvent, useEffect } from 'react';
-import '../../../css/browser/item/productImage.scss';
+import './css/browser/item/productImage.scss';
 
 function ProductImage() {
-  const imgRef = useRef<any>();
-  const [mainImgPath, setMainImgPath] = useState({PATH : '/images/test/product_1.jpeg'});
-  const [subImgPath, setSubImgPath] = useState([ {PATH : '/images/test/product_1.jpeg'}
-                                               , {PATH : '/images/test/product_2.jpeg'}
-                                               , {PATH : '/images/test/product_3.jpeg'}
-                                               , {PATH : '/images/test/product_4.jpeg'}
+  const imgRef = useRef();
+  // 테스트 데이터
+  const [mainImgPath, setMainImgPath] = useState({PATH : '/images/product_1.jpeg'});
+  const [subImgPath, setSubImgPath] = useState([ {PATH : '/images/product_1.jpeg'}
+                                               , {PATH : '/images/product_2.jpeg'}
+                                               , {PATH : '/images/product_3.jpeg'}
+                                               , {PATH : '/images/product_4.jpeg'}
                                                ] );
   const [classFlag, setClassFlag] = useState('scale(1)');
   const [blowFlag, setBlowFlag] = useState('0, 0');
